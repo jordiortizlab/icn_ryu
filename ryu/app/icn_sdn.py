@@ -42,7 +42,8 @@ TCP = tcp.tcp.__name__
 PROVIDER_IP='10.0.111.1'
 PROVIDER_PORT=8000
 PROVIDER_MAC='00:00:00:00:00'
-
+CACHE_MAC='52:54:00:7d:d3:85'
+PROXY_MAC='52:54:00:8b:53:1b'
 
 class icn(app_manager.RyuApp):
     OFP_VERSIONS = [ofproto_v1_2.OFP_VERSION]
